@@ -1,0 +1,301 @@
+premise,hypothesis,phenomenon,label,pred,correct,confidence,label_str,pred_str
+"From afar, a person walks down a path through a brown field.",A person uncross a field in the distance.,antonymy,2,2,1,0.4115249216556549,contradiction,contradiction
+"A man drives a motorcycle, with a woman in an orange sari and a young girl in a blue dress riding in the backseat.",A person in an orange sari is a passenger on a motor cycle.,paraphrase,0,1,0,0.8541216254234314,entailment,neutral
+A woman is pushing her bike with a baby carriage in front.,A person is taking her child for a stroll.,paraphrase,0,2,0,0.7813706994056702,entailment,contradiction
+"A man and a woman are jumping in midair and holding hands, a cloudy sky in the background.",The person and person are physically touching each other.,paraphrase,0,0,1,0.9857020378112793,entailment,entailment
+a woman in green stands with her hands on her hips.,A person is wearing green clothes.,paraphrase,0,0,1,0.9757502675056458,entailment,entailment
+"A man, dressed in a green shirt with black pants, is transporting luggage strapped to a wheelbarrow, down a cobblestone road.",The shirt is not green.,negation,2,2,1,0.9858248233795166,contradiction,contradiction
+A youngster exploring the branches of a tree.,Here is a child near a tree.,antonymy,2,0,0,0.9763879776000977,contradiction,entailment
+A man with shoulder length dark hair sits near the rocks of a waterfront while holding a cigarette in his right hand.,A person holding a cigarette.,paraphrase,0,0,1,0.9888991713523865,entailment,entailment
+Javelin competition,Here is a competition.,antonymy,2,0,0,0.9217805862426758,contradiction,entailment
+Three children play with a giant sphere on a playground while an adult sits on a bench reading the newspaper.,all kids are playing outside on a playground while their mother is sitting down.,quantifier,2,1,0,0.9063529968261719,contradiction,neutral
+A gentleman on the phone at his desk while a child sits on his lap and draws on a sheet of paper,A person is by a child.,paraphrase,0,0,1,0.9746484160423279,entailment,entailment
+Two men wearing brown hats are doing work on a yellow house.,all men are fixing an old lady's house.,quantifier,2,2,1,0.6190731525421143,contradiction,contradiction
+Woman reading a book in a laundry room,A person is reading a book.,paraphrase,0,0,1,0.985589325428009,entailment,entailment
+A man is cooking pies in the oven.,The oven lack pies in it.,antonymy,2,2,1,0.8724344372749329,contradiction,contradiction
+Two girls wading through hip deep mud.,The two people are not in deep muddy water.,negation,2,0,0,0.934287965297699,contradiction,entailment
+"Man in gray zippered jacket and red shirt pets a brown dog and holds a young girl in pink shirt, while a woman next to him holds an infant boy and a gray dog.",A person holds a small child while petting his canine with his girlfriend is holding her son and her canine.,paraphrase,0,1,0,0.9467263221740723,entailment,neutral
+Two women crossing an intersection.,It is not true that Two ladies walking.,negation,2,0,0,0.4582742750644684,contradiction,entailment
+Boy standing in line in a grocery store with his items on the conveyor belt.,He is not waiting to pay.,negation,2,1,0,0.6266881823539734,contradiction,neutral
+A man in orange and white rides his mountain bike through a forest.,A person is adventuring through the forest outside.,paraphrase,0,1,0,0.5833306312561035,entailment,neutral
+"Dozens of street performers in fuchsia, red, yellow and black outfits are dancing and singing along a city street.",all performers in colorful costumes were entertaining in the streets.,quantifier,2,0,0,0.7146504521369934,contradiction,entailment
+Some people are playing ping-pong.,all people are playing Donkey Kong,quantifier,2,2,1,0.9940325617790222,contradiction,contradiction
+A young child is enjoying the water and rock scenery with their dog.,The child and dog are hoping for all ice cream later.,quantifier,2,1,0,0.5906714797019958,contradiction,neutral
+An extremely wet woman is wading in front of a waterfall.,A woman dripping with water walks in back of a waterfall.,antonymy,2,0,0,0.7227419018745422,contradiction,entailment
+A brown dog opens his mouth to catch a piece of food.,A dog unhitch food.,antonymy,2,0,0,0.36306270956993103,contradiction,entailment
+A cyclist rides down a rocky mountain.,He is not riding a bike.,negation,2,2,1,0.9856812953948975,contradiction,contradiction
+"A white-haired man reclines in a seat pad on a boat's deck, reading a book.","It is not true that a man reclines in a seat on a boat, reading.",negation,2,1,0,0.4613754153251648,contradiction,neutral
+"A costumed man stands tall above a crowd of his contemporaries in the midst of a party in a white room, furnished with overhead lights and a gray-scale painting on the wall behind him.",Someone is having none fun.,quantifier,2,2,1,0.8560689687728882,contradiction,contradiction
+A black dog plays with a white and blue colored stuffed animal.,A dog is playing with a unstuff animal.,antonymy,2,0,0,0.4808688461780548,contradiction,entailment
+A skater performs a stunt off a cement wall covered in graffiti.,It is not true that A skateboarder displaying their skills.,negation,2,2,1,0.4149230122566223,contradiction,contradiction
+A young barefoot girl in a pink dress is jumping outside.,A child is not playing.,negation,2,0,0,0.8270832896232605,contradiction,entailment
+"Three young men in blue jeans are gathered inside a wood-paneled room, one of them handling a crossbow.",three young men are not gathered in a room made of wood panels while one holds a crossbow,negation,2,2,1,0.968532145023346,contradiction,contradiction
+Dog standing in grassy sand dune.,It is not true that A dog stands in sand near grass.,negation,2,0,0,0.5273743271827698,contradiction,entailment
+A young boy wearing crocs tries to hit yellow golf balls into a large lawn overlooking a town.,A child was hitting golf balls.,paraphrase,0,0,1,0.9770583510398865,entailment,entailment
+A group of people are running in the cold.,A bunch of people moving briskly on a hot day,antonymy,2,2,1,0.9285939931869507,contradiction,contradiction
+A graying man with glasses is standing in back of a barber's chair in a seemingly empty barber shop.,A man is not standing in a barber shop.,negation,2,0,0,0.7655239701271057,contradiction,entailment
+"A squatting couple outdoors, engaged with a kneeling street performer or vendor reading from a book of manga.",none people walk quickly.,quantifier,2,2,1,0.9938492178916931,contradiction,contradiction
+"A person is climbing a cliff wall, over a rocky shore, using a rope.",A person differ near a body of water.,antonymy,2,0,0,0.8962864875793457,contradiction,entailment
+A happy boy is jumping in front OD city fountain.,There is not a boy near a fountain.,negation,2,2,1,0.9905766248703003,contradiction,contradiction
+a lone surfboarder on a white surfboard flying through the air over a wave,A lone surfboarder on a a white surfboard is not riding the waves.,negation,2,2,1,0.8660995364189148,contradiction,contradiction
+four men are wearing red baseball caps and orange and yellow shirts.,Here is a group of men.,antonymy,2,0,0,0.9841035604476929,contradiction,entailment
+A bulldog is running through a grassy park while people stand in the background.,It is not true that A bulldog running outdoors.,negation,2,0,0,0.42469996213912964,contradiction,entailment
+A woman with sneakers and a skirt is sweeping out a storage building.,It is not true that Casually dressed woman cleans out storage building.,negation,2,0,0,0.5470646023750305,contradiction,entailment
+A black girl and white girl walking hand and hand in a busy area of a city with a public train in the background.,none kids take public transit.,quantifier,2,2,1,0.9819996356964111,contradiction,contradiction
+A tattooed boxer is punching his opponent in a boxing arena.,A boxer is not competing in a fight.,negation,2,2,1,0.7874546647071838,contradiction,contradiction
+Two men and a woman finishing a meal and drinks.,all people eating a meal.,quantifier,2,2,1,0.8958798050880432,contradiction,contradiction
+A middle-aged man in a gray t-shirt and brown pants sitting on his bed reading a flyer-like paper.,A man is sitting on his turn out reading.,antonymy,2,1,0,0.7572964429855347,contradiction,neutral
+A young boy is sitting in a green tunnel,The boy differ sitting,antonymy,2,0,0,0.6642863750457764,contradiction,entailment
+A girl in green is running behind a boy in red in a sports arena whilst a girl in pink is running in the background.,all kids sit on a rollercoaster.,quantifier,2,2,1,0.9984606504440308,contradiction,contradiction
+A little girl in pink boots runs down the street.,A human is not running outdoors.,negation,2,0,0,0.9554200172424316,contradiction,entailment
+A city street with people in front of a mountain back drop.,none people are riding bikes down a country lane.,quantifier,2,2,1,0.9956581592559814,contradiction,contradiction
+A man in a black shirt is playing a guitar.,The person is wearing black.,paraphrase,0,0,1,0.9858070611953735,entailment,entailment
+A woman in a jacket and scarf looking a table that a man in a black shirt is cooking something on.,A lady is watching a person cook.,paraphrase,0,0,1,0.9681004881858826,entailment,entailment
+A boy in a black swimsuit playing near the water.,A boy is playing far the water.,antonymy,2,0,0,0.5154024958610535,contradiction,entailment
+A child is looking at some colorful dresses.,A sad child is looking at none colorful dresses.,quantifier,2,2,1,0.8011621236801147,contradiction,contradiction
+A man and women are dancing together on the street.,A person and person are dancing together.,paraphrase,0,0,1,0.9863317012786865,entailment,entailment
+Two monks are visiting a big city.,The monks are not dressed in their robes enjoying the big city.,negation,2,1,0,0.848516047000885,contradiction,neutral
+"A man walking in a crowd, draped in a Canadian flag.",A person is wearing a Canadian flag in the crowd.,paraphrase,0,0,1,0.9775994420051575,entailment,entailment
+A diver is swimming with a turtle.,A turtle has not a diver swimming with it.,negation,2,2,1,0.9766401052474976,contradiction,contradiction
+A balding man is getting his shoes cleaned on a street corner.,A person outside.,paraphrase,0,0,1,0.987244188785553,entailment,entailment
+A woman in a purple sweater has an odd look on her face.,A woman in a purple sweater has not an odd look on her face.,negation,2,2,1,0.9808196425437927,contradiction,contradiction
+Two boys laying tile in a bathroom.,It is not true that Some boys repair a bathroom.,negation,2,1,0,0.5994216203689575,contradiction,neutral
+A dog reaches to catch a ball with its mouth.,The dog is not playing with a ball.,negation,2,2,1,0.9183701872825623,contradiction,contradiction
+Tall man being stopped by an officer.,There differ a tall man.,antonymy,2,0,0,0.866471529006958,contradiction,entailment
+"While some people look in the barn, others walk on the bridge and some are enjoying cooling off in the water by the beach.",none people are outside.,quantifier,2,2,1,0.995629072189331,contradiction,contradiction
+A woman observes a rusted antique car.,A person looks at an old automobile.,paraphrase,0,0,1,0.984652578830719,entailment,entailment
+A person with dark hair is standing on the sidewalk in front of an orange and white truck.,The man is standing on none grass.,quantifier,2,2,1,0.6412519812583923,contradiction,contradiction
+Young players engage in the sport of Water polo while others watch.,Children are enjoying a game of water polo.,paraphrase,0,0,1,0.7312623262405396,entailment,entailment
+A mountain biker rides up a hill on a red bicycle.,The biker walk up the hill.,antonymy,2,2,1,0.9931079149246216,contradiction,contradiction
+A man wearing all white is using an orange chainsaw to cut down a thick tree next to his house.,A person in white is cutting down a tree near his away with a saw.,antonymy,2,0,0,0.7765089869499207,contradiction,entailment
+A woman in a blue sweatshirt is shearing the wool off of a lamb.,A woman is refresh a sweatshirt,antonymy,2,0,0,0.6252713203430176,contradiction,entailment
+A woman on vacation enjoying a vanilla ice cream cone.,A person is eating cold ice cream.,paraphrase,0,0,1,0.9488954544067383,entailment,entailment
+"A festival displays two men dressed in red makeup and costume, while an older man has cream on his face.","A festival displays two men dressed up in red makeup and costume, while an older man has none cream on his face.",quantifier,2,2,1,0.971455454826355,contradiction,contradiction
+A dog running on grass,A canine is on the grass.,paraphrase,0,0,1,0.9849027991294861,entailment,entailment
+Young lady during a performance of modern dance.,The lady differ dancing.,antonymy,2,1,0,0.4809967279434204,contradiction,neutral
+"Numerous people sitting in a dim lit room talking, drinking coffee and using computers.",all people are at a staff meeting.,quantifier,2,2,1,0.5864077806472778,contradiction,contradiction
+A thin man in a maroon shirt standing next to a pay phone.,A person is standing next to a payphone wearing a maroon shirt.,paraphrase,0,0,1,0.9806917905807495,entailment,entailment
+"A man wearing sunglasses is sitting on the steps outside, reading a magazine.",The person is sitting.,paraphrase,0,0,1,0.9885520935058594,entailment,entailment
+Three people walking down a hallway at the train station.,all people are sitting in a dining car of a train drinking coffee.,quantifier,2,2,1,0.9986152648925781,contradiction,contradiction
+A biker wearing a white t-shirt is jumping over dirt hills.,It is not true that A person jumps over hills with his bike.,negation,2,1,0,0.4387914538383484,contradiction,neutral
+A man is reading a newspaper in a car dealership.,A woman is at a car dealership.,antonymy,2,2,1,0.997938334941864,contradiction,contradiction
+A man in a black hat and jacket is sitting down.,A person sitting down is wearing a black hat and a jacket.,paraphrase,0,0,1,0.9820682406425476,entailment,entailment
+"A couple dancing alfresco dressed in turquoise tops, the lady is held up in the air with her hands stretched upwards.",It is not true that People dancing,negation,2,2,1,0.48752421140670776,contradiction,contradiction
+A young man in a black shirt and an elderly woman in a pink shirt sitting on a train together.,The man is refresh clothing.,antonymy,2,1,0,0.7650398015975952,contradiction,neutral
+A couple of travelers in a train station.,none travelers are at a train station.,quantifier,2,2,1,0.9978147745132446,contradiction,contradiction
+A large amount of persons flying kites in a park.,a lot of people differ flying kites.,antonymy,2,0,0,0.6715325713157654,contradiction,entailment
+Two women wearing skirts and heels walking down a sidewalk.,none women are walking to the store.,quantifier,2,2,1,0.8665552139282227,contradiction,contradiction
+A black dog running through the forest.,A canine playing outside.,paraphrase,0,0,1,0.892862856388092,entailment,entailment
+A man in a dark floral shirt and black jeans walks buy a brightly colored wall painted with a woman with bright green eyes.,There is not a wall with a green eyed woman painted on it and a man walking past it.,negation,2,2,1,0.9800123572349548,contradiction,contradiction
+"Young boys playing indoor basketball, one team has black and white uniforms, the other has orange and white.",all girls are playing a game of baseball.,quantifier,2,2,1,0.9987072944641113,contradiction,contradiction
+A brown dog carries a long stick on the green grass.,A dog carries a dislodge across the grass.,antonymy,2,1,0,0.5176714062690735,contradiction,neutral
+Man playing golf indoors with coat on.,A person is playing indoors.,paraphrase,0,0,1,0.9854850172996521,entailment,entailment
+A group of people sitting in a grassy area under a pink and white blossoming tree.,all people are having a picnic.,quantifier,2,1,0,0.8009685277938843,contradiction,neutral
+A group of people standing in front of a club.,A group of people in back of a club.,antonymy,2,2,1,0.8809565901756287,contradiction,contradiction
+Ski equipment sits alone on a snowy mountain,none skis are sitting in the snow.,quantifier,2,0,0,0.6614417433738708,contradiction,entailment
+Three indoor track cyclist are being held balanced in place at the starting line by three attendants.,Three cyclists are preparing to linger.,antonymy,2,1,0,0.3904692828655243,contradiction,neutral
+A black dog is coming out of the ocean water on the beach with something in its mouth.,The canine is coming out of the ocean with something it its mouth.,paraphrase,0,0,1,0.9537721276283264,entailment,entailment
+The little dog walking on the grass has a red bow in its hair.,The canine is walking on the grass.,paraphrase,0,0,1,0.9857519268989563,entailment,entailment
+A musical group performing on a green carpet in front of small televisions.,A group is playing a song near none TVs.,quantifier,2,1,0,0.4680788516998291,contradiction,neutral
+A young man dressed in black dress clothes lies down with his head resting in the lap of an older man in plain clothes.,An older and younger man are not together.,negation,2,0,0,0.9013503193855286,contradiction,entailment
+Old woman chasing away two lambs with a broom.,There is a woman and all animals.,quantifier,2,0,0,0.9002384543418884,contradiction,entailment
+a boy walks through the water.,It is not true that A boy walks.,negation,2,0,0,0.425317645072937,contradiction,entailment
+"A crowd is watching 2 shirtless men, one in yellow pants and one in black shorts perfom.",It is not true that A crowd watches two shirtless men perform together.,negation,2,1,0,0.6434093713760376,contradiction,neutral
+A man in a black shirt holding cloth next to a wooded structure as people walk around it.,A man is holding something near none trees as people pass by.,quantifier,2,0,0,0.8070152997970581,contradiction,entailment
+A young boy kissing an old man on the forehead.,There is a boy showing affection to an old person.,paraphrase,0,0,1,0.978719174861908,entailment,entailment
+A woman and a man are sword fighting.,Two people differ opposing each other in a sword fight.,antonymy,2,0,0,0.4932168126106262,contradiction,entailment
+Two brown dogs with green harnesses play tug-of-war.,none dogs are swimming in a river,quantifier,2,2,1,0.9976966977119446,contradiction,contradiction
+Two young men in black tank tops playing on a set of drums.,none guys in black beat their drums.,quantifier,2,2,1,0.9914466142654419,contradiction,contradiction
+A woman in a blue star printed dress stands next to a grill with food on it.,A woman in a starry dress differ near a grill that is cooking.,antonymy,2,0,0,0.6032578945159912,contradiction,entailment
+The skier is doing a flip through some trees,A skier is unmake tricks.,antonymy,2,2,1,0.42275068163871765,contradiction,contradiction
+A woman is holding a baby by a window.,There is not a baby in the picture.,negation,2,2,1,0.8722089529037476,contradiction,contradiction
+Young male in blue shirt and tan pants rollerblading.,The young woman is moving.,antonymy,2,2,1,0.9773411750793457,contradiction,contradiction
+a girl wearing pink shoes jumps off a swing in a park,The boy is at the park.,antonymy,2,2,1,0.9965294003486633,contradiction,contradiction
+Woman helps bride into dress.,A man helps a bride dress herself.,antonymy,2,2,1,0.9964852333068848,contradiction,contradiction
+"A woman, in a green shirt, preparing to run on a treadmill.",A person is getting a workout.,paraphrase,0,0,1,0.9239586591720581,entailment,entailment
+"Woman dressed in red holding two fans, one red and one black.",A person clad in red holds a red and black fan,paraphrase,0,0,1,0.9540619850158691,entailment,entailment
+Boy wearing a blue hoodie jumps over a stair railing.,A female child jumps over a stair railing.,antonymy,2,2,1,0.9938236474990845,contradiction,contradiction
+A group of men are on scaffolds painting a wall.,The woman are painting.,antonymy,2,2,1,0.9952074885368347,contradiction,contradiction
+Men playing football.,Some woman are playing a game.,antonymy,2,2,1,0.9906732439994812,contradiction,contradiction
+Two small children are gathering water from a large container.,Two children are getting water.,paraphrase,0,0,1,0.9859850406646729,entailment,entailment
+A crowd of people in colorful dresses.,The dresses vary in color in this photograph.,paraphrase,0,0,1,0.9334725141525269,entailment,entailment
+Young brunette woman smiling in front of bushes.,The young woman smiles after hearing all good news.,quantifier,2,1,0,0.9928385615348816,contradiction,neutral
+"A topless man with tattoos, black pants, and black boots is standing on a platform in front of a mirror.",a person is standing,paraphrase,0,0,1,0.9802088737487793,entailment,entailment
+An old man is sitting in a chair outside a colorfully painted building.,Elderly man is sitting off a chair in outside of a building,antonymy,2,0,0,0.7908449172973633,contradiction,entailment
+A man wearing a baseball hate is checking his phone,The person is looking at the screen of a cell phone.,paraphrase,0,1,0,0.6329976320266724,entailment,neutral
+A man is standing next to a bin overflowing with garbage.,The garbage bin is empty.,antonymy,2,2,1,0.835323691368103,contradiction,contradiction
+Elderly woman with green sweater picking out produce in outdoor market.,The lady is buying all avocados and lettuces,quantifier,2,1,0,0.6701880097389221,contradiction,neutral
+A man in his own world of him and his music just entertaining on the street corner.,A person is on a street corner.,paraphrase,0,0,1,0.9863161444664001,entailment,entailment
+"A man dressed in a bronze suit, wearing bronze colored glasses, is accompanied with a bronze old fashion movie camera, motions taking a movie.",A person is wearing a suit and glasses.,paraphrase,0,0,1,0.9884327054023743,entailment,entailment
+Three young indian children play wiffle ball.,Three persons play all game.,quantifier,2,1,0,0.9087360501289368,contradiction,neutral
+A group of women are standing in front of a building.,none girls are modeling in a runway show.,quantifier,2,2,1,0.9881079792976379,contradiction,contradiction
+A woman wearing a white baseball cap purple coat holding a poster.,A person with a hat holding a poster.,paraphrase,0,0,1,0.9827876091003418,entailment,entailment
+Two people are surfing in the ocean.,The two people lack surfboards.,antonymy,2,1,0,0.5255553722381592,contradiction,neutral
+A man in a black jacket and blue jeans carries a bouquet of red roses along a city sidewalk past a bus stop.,woman carries flowers,antonymy,2,2,1,0.9966710209846497,contradiction,contradiction
+A black dog in front of a waterfall.,A canine is in front of a waterfall.,paraphrase,0,0,1,0.9793983101844788,entailment,entailment
+A young boy walking in the park dressed in dark clothes and dark cap.,A young person walking in the park dressed in dark clothes and dark cap.,paraphrase,0,0,1,0.978598415851593,entailment,entailment
+A boy wearing orange star glasses is sitting down holding a toy hammer.,A dog and a pig play in none mud.,quantifier,2,2,1,0.997576892375946,contradiction,contradiction
+"Outdoors in front of a crowd, a man plays an instrument by blowing into pipes he holds up to his face.",A person playing an instrument indoors.,antonymy,2,2,1,0.9939656853675842,contradiction,contradiction
+A man in a bicycle is passing through a house with blue doors.,A person is on a bicycle.,paraphrase,0,0,1,0.985883891582489,entailment,entailment
+a blond girl and brunette brown hanging by gymnastic ropes,all girls are playing volley ball.,quantifier,2,2,1,0.9946188926696777,contradiction,contradiction
+A man does a jump trick on a bike.,He just did a trick on his bicycle.,paraphrase,0,0,1,0.546783983707428,entailment,entailment
+Two people are in a green forest.,The forest is not living.,antonymy,2,0,0,0.5595638155937195,contradiction,entailment
+A black dog is chasing a ball on a green grass.,A black dog is playing fetch with all kids.,quantifier,2,1,0,0.9748250246047974,contradiction,neutral
+A soccer team dressed in all black are gathered together on a soccer field where it is cold enough to see one's own breath.,all peoples are running in game,quantifier,2,2,1,0.8833439946174622,contradiction,contradiction
+A girl in green looks at the camera and stands in front of a huge crowd of indescript faces.,A boy looks at a camera,antonymy,2,2,1,0.9979603290557861,contradiction,contradiction
+A man and a woman hug on a street.,A person and person hug.,paraphrase,0,0,1,0.9880958795547485,entailment,entailment
+Four men in red vests with crosses on them ski on a mountain.,Four people differ skiing,antonymy,2,0,0,0.4926270544528961,contradiction,entailment
+A black girl and white girl walking hand and hand in a busy area of a city with a public train in the background.,all kids play in the backyard.,quantifier,2,2,1,0.9971873164176941,contradiction,contradiction
+A young man in black and white striped shirt rests on the grass while traffic passes nearby on the road.,A boy is not on the grass.,negation,2,2,1,0.814882218837738,contradiction,contradiction
+"People mingling in the foreground and background, two of them are walking towards those in the background that are positioned nearby of a building that is overshadowed by a large number of trees, while the two in the foreground are tending to a horse drawn carriage.",all Amish people are fixing their carriage while other people walk or stand nearby.,quantifier,2,1,0,0.9123666286468506,contradiction,neutral
+A man talks on his cellphone in private.,A person is on his cellphone.,paraphrase,0,0,1,0.9858613014221191,entailment,entailment
+A football coach guiding one of his players on what he should do.,The player was making too all mistakes.,quantifier,2,1,0,0.543647289276123,contradiction,neutral
+Children play on a sit-and-spin at the local playground while others slide in the background.,children are not at a playground,negation,2,2,1,0.9891975522041321,contradiction,contradiction
+This man is trying to make his wife laugh by blowing bubbles in the bathtub.,There is not a man and woman in the bathroom.,negation,2,2,1,0.9262186884880066,contradiction,contradiction
+A well dressed man and woman wearing floral dress dancing.,the man is not well dressed.,negation,2,2,1,0.972323477268219,contradiction,contradiction
+A man stands on the sidewalk near a lamp post as well as a pillar forming part of an edifice.,The man is off a sidewalk.,antonymy,2,0,0,0.8845379948616028,contradiction,entailment
+A girl in a hate with ear flaps and a sweater.,A boy wears a sweater.,antonymy,2,2,1,0.9976491332054138,contradiction,contradiction
+a skateboarder ollies.,Someone differ on a board with four wheels.,antonymy,2,1,0,0.5369964838027954,contradiction,neutral
+A young boy wearing safety swimming gear and goggles is in a pool.,A child uses eye protection while in the water.,paraphrase,0,0,1,0.9422922730445862,entailment,entailment
+A man wearing a suit with a name tag stands reading in front of a microphone as a screen behind him displays a presentation.,"A person with a name tag that reads ""Ben"" is standing in front of a screen.",paraphrase,0,0,1,0.5087030529975891,entailment,entailment
+A man plays mini-gold on the SportsCenter set while two others observe.,The man differ being watched.,antonymy,2,0,0,0.8490114808082581,contradiction,entailment
+A man sitting up taking a nap on a park bench with an open umbrella protecting him from the sun.,A man differ under an umbrella.,antonymy,2,0,0,0.7685873508453369,contradiction,entailment
+Man in overalls with two horses.,a person in overalls with two horses,paraphrase,0,0,1,0.9600226879119873,entailment,entailment
+Six children splashing in an outdoor water park.,Kids are not wet.,negation,2,2,1,0.9714250564575195,contradiction,contradiction
+"Two men sleeping on a park bench, slumped over each other.",Two men differ sleeping.,antonymy,2,0,0,0.7599456310272217,contradiction,entailment
+A large black and white dog is catching a Frisbee in the park with a crowd of people behind him.,"There's a crowd of people at the park, and a big canine gets in into the act, catching a Frisbee in its mouth.",paraphrase,0,0,1,0.8328031301498413,entailment,entailment
+Two children throw dead leaves into the air around them.,The children are not outside.,negation,2,0,0,0.8981729745864868,contradiction,entailment
+Two boys laying tile in a bathroom.,all kids are napping.,quantifier,2,1,0,0.5166015625,contradiction,neutral
+A medium sized brown dog jumping,It is not true that The brown dog jumps up and down.,negation,2,0,0,0.6567857265472412,contradiction,entailment
+A man in a light colored uniform is outside an Asian restaurant cleaning the display window which features exotic foods hanging on hooks.,A man has not a light colored uniform.,negation,2,2,1,0.9941611886024475,contradiction,contradiction
+"This mother and her daughter and granddaughter are having car trouble, and the poor little girl looks hot out in the heat.",The car that belongs to the family is not having issues.,negation,2,2,1,0.6150696873664856,contradiction,contradiction
+"A woman, wearing a white shirt and green shorts, sitting on a rock in a beautiful body of water.",The woman is not not standing up.,negation,2,0,0,0.9764330983161926,contradiction,entailment
+"A small group of young black men, some in traditional African dress, are assembled outdoors.",none black men are outdoors.,quantifier,2,2,1,0.9941586256027222,contradiction,contradiction
+A girl in a pink tank top and her boyfriend sitting on stone steps.,A girl is not sitting on stone steps in a pink tank top with her boyfriend.,negation,2,2,1,0.9733894467353821,contradiction,contradiction
+A soccer game in a large area with 8 yellow players and 4 black players.,There differ a soccer game with12 players.,antonymy,2,0,0,0.6877031922340393,contradiction,entailment
+A man in a black shirt sits next to an old woman in a pink shirt on a train.,A man is not sitting next to a lady.,negation,2,2,1,0.6374102234840393,contradiction,contradiction
+A man in a black shirt is standing behind a blue SUV.,A person is not next to a car,negation,2,0,0,0.9206782579421997,contradiction,entailment
+"A crowd of people are surrounding a street performance, there are buildings in the background.",A crowd of people differ on a street,antonymy,2,1,0,0.5915725827217102,contradiction,neutral
+An old woman in a green and blue plaid shirt is standing on a crowded sidewalk smiling.,A person in a plaid shirt smiling on a crowded sidewalk,paraphrase,0,0,1,0.9726296663284302,entailment,entailment
+A few people walking in the distance of a small town.,People are not in the vicinity of a town,negation,2,2,1,0.4766501486301422,contradiction,contradiction
+A party is held and many people mingle and gather for the occasion.,all friends are having a party on mars.,quantifier,2,2,1,0.9627886414527893,contradiction,contradiction
+A group of construction workers are walking.,the workers are not walking,negation,2,2,1,0.9894015192985535,contradiction,contradiction
+a person holding a picture of a face in front of their own face sitting on a bench.,The picture is of a avoid.,antonymy,2,1,0,0.781498908996582,contradiction,neutral
+A man uses stereo equipment.,A man is not using some audio equipment.,negation,2,2,1,0.9916129112243652,contradiction,contradiction
+"Two older men speak into microphones on a stage, while a projector screen displays a vintage photo of a young man behind them.",Two men are not speaking on a stage with a picture being displayed on a screen behind them.,negation,2,2,1,0.9701671004295349,contradiction,contradiction
+Blue bus parked with back door opened as man in white shirt walk by it.,Guy ride by bus.,antonymy,2,0,0,0.9597992300987244,contradiction,entailment
+Young man walking dog,The person is with his canine.,paraphrase,0,0,1,0.9454588294029236,entailment,entailment
+Children and adults swim in large pool with red staircase.,A group of people are not swimming.,negation,2,2,1,0.9612097144126892,contradiction,contradiction
+A dog looks content sitting on a bed after ripping up some paper,a dog looks content sitting on a bed after ripping up all important papers.,quantifier,2,1,0,0.9890176057815552,contradiction,neutral
+Women and children sitting outside in the shade while a group of younger children sitting inside in the shade.,The person and children and sitting down.,paraphrase,0,0,1,0.9557350873947144,entailment,entailment
+A young boy is dumping a bag of Lego's onto a glass table.,A boy is playing with none crayons.,quantifier,2,2,1,0.5697798132896423,contradiction,contradiction
+A group of Japanese women wearing matching outfits walking across a crosswalk while passersby stare.,Man are wearing matching outfits.,antonymy,2,2,1,0.9902715086936951,contradiction,contradiction
+A woman is sitting in a chair filling out some paperwork.,A woman looks over none forms.,quantifier,2,2,1,0.8371391296386719,contradiction,contradiction
+A man in a dark shirt and overalls is squatting down on gravel and working on a railroad car.,Several men wearing overalls are working on a railroad automobile while knelling on gravel,paraphrase,0,0,1,0.7233006358146667,entailment,entailment
+A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.,It is not true that A man sits and makes mischief.,negation,2,0,0,0.4054373502731323,contradiction,entailment
+"Lady vendor selling her goods, one man standing on a post, and two men in a wholesale store.",A person and three men.,paraphrase,0,0,1,0.9876060485839844,entailment,entailment
+Two boys in a field kicking a soccer ball.,all boys are practicing for a soccer game.,quantifier,2,1,0,0.9688576459884644,contradiction,neutral
+"A woman walking, smiling and holding a shopping bag.","all women go shopping, while men stay at home.",quantifier,2,2,1,0.9720454216003418,contradiction,contradiction
+Three children in swimsuites are having fun outside near a white building.,none children outside having fun and playing.,quantifier,2,2,1,0.9832766056060791,contradiction,contradiction
+A boy on a skateboard ramp.,There is a female child on a ramp,antonymy,2,2,1,0.9889032244682312,contradiction,contradiction
+A child dressed in blue jeans with rolled cuffs and a pink hoodie waits outdoors at the foot of the stairs with an axe.,A child waits by all stairs.,quantifier,2,1,0,0.46285438537597656,contradiction,neutral
+Two kids are standing in the ocean hugging each other.,Two kids are not outdoors.,negation,2,0,0,0.9529944658279419,contradiction,entailment
+People walk amongst a traffic jam in a crowded city.,There are all red cars.,quantifier,2,1,0,0.9730584025382996,contradiction,neutral
+A man with a shopping cart is studying the shelves in a supermarket aisle.,There is a man outside a supermarket.,antonymy,2,0,0,0.9228965044021606,contradiction,entailment
+A child is reaching up to the counter using a step stool.,The child is trying to reach all candy.,quantifier,2,1,0,0.9517460465431213,contradiction,neutral
+"Three cheerful ladies sitting at a table doing a yarn work in a room, at the background are similar groups of ladies doing similar work.",all women sitting in a room.,quantifier,2,0,0,0.45030468702316284,contradiction,entailment
+two women in lab coats looking on a image projected on the wall,all women are in a lab setting.,quantifier,2,2,1,0.8130947351455688,contradiction,contradiction
+A lady with bright orange hair walking in a crowd.,A woman is not near a group of people.,negation,2,2,1,0.7887223362922668,contradiction,contradiction
+A woman and three children.,A lady and three children.,paraphrase,0,0,1,0.9819019436836243,entailment,entailment
+"A young man wearing a blue shirt with white words, black jeans, and inline skates is sitting on a concrete seat looking forward while a group are people are in the background.",It is not true that A young man in inline skates sits on a concrete seat.,negation,2,0,0,0.3766806721687317,contradiction,entailment
+A black dog runs with a deflated ball and a tiny tire.,A canine with a ball.,paraphrase,0,0,1,0.9834375381469727,entailment,entailment
+A man wearing glasses and a dark coat looks at something to the left of the picture.,A person in a dark coat looks to his side.,paraphrase,0,0,1,0.8422446846961975,entailment,entailment
+"An older man wearing a winter coat and jeans stands in front of a large, wheeled flower cart.",The older person has a heavy coat on.,paraphrase,0,0,1,0.5850213766098022,entailment,entailment
+Rear view of woman walking along side of building.,A person walks near a building.,paraphrase,0,0,1,0.9802221655845642,entailment,entailment
+A little girl in a blue dress is sitting on a red you tractor.,It is not true that A girl sits on a vehicle.,negation,2,0,0,0.6895925998687744,contradiction,entailment
+A man pushing a food cart stands in front of a stone building and holds onto the bars covering a window.,A man peering into a window to see if others would like to buy all food.,quantifier,2,1,0,0.9708430171012878,contradiction,neutral
+A young man and a young women in white lab coats are reading a biology textbook together and looking at a microscope in a laboratory.,Two people are not referencing a textbook in a laboratory.,negation,2,2,1,0.9374855756759644,contradiction,contradiction
+The woman is holding up the line with the fish that she caught in the lake with her bamboo fishing pole.,The person is fishing.,paraphrase,0,0,1,0.8938910365104675,entailment,entailment
+A slender woman wearing jeans and a colorful purse is standing on a large yellow maneuver.,A person is standing,paraphrase,0,0,1,0.9739568829536438,entailment,entailment
+A sitting man is spraying a squirt bottle at a pedestrian while holding an umbrella over his head.,A person sits down.,paraphrase,0,0,1,0.9888618588447571,entailment,entailment
+A woman is writing something on a post-it note which is hanging on a bulletin board with a lot of other post-it notes.,The person is writing a note.,paraphrase,0,0,1,0.984580397605896,entailment,entailment
+A female sings and plays into a microphone and a male in green striped shorts plays a hand drum,a man sings into a microphone,antonymy,2,2,1,0.8910242915153503,contradiction,contradiction
+A super car is spinning tires on a raceway track creating smoke near a crowd.,A super car has raced all times before.,quantifier,2,1,0,0.8875564932823181,contradiction,neutral
+"Scene from a life show with man singing in the center, there are two women one on each side of him.",A woman is singing on stage.,antonymy,2,2,1,0.7994687557220459,contradiction,contradiction
+Someone holding a bag of oranges walking outside.,Someone is not holding oranges and walking,negation,2,2,1,0.9697225093841553,contradiction,contradiction
+"A young man smiles and points at something off-camera, while standing in front of a display.",The young woman is in front of a display.,antonymy,2,2,1,0.9948163628578186,contradiction,contradiction
+Four girls in shorts walk down the street.,There are not some girls in this picture,negation,2,0,0,0.6565258502960205,contradiction,entailment
+A man is looking affected by results from his poker game.,It is not true that The man plays poker,negation,2,0,0,0.3664356768131256,contradiction,entailment
+"A taxi SUV drives past an urban construction site, as a man walks down the street in the other direction.",A taxi SUV races to pick up none clients while a man walks peacefully in the other direction.,quantifier,2,1,0,0.7975422143936157,contradiction,neutral
+A sports match is taking place between one team wearing the colors red and white and another team sporting the colors black and blue.,The two teams are not wearing different colors.,negation,2,2,1,0.9614059329032898,contradiction,contradiction
+A young child is enjoying the water and rock scenery with their dog.,The child and dog are enjoying all fresh air.,quantifier,2,0,0,0.414019376039505,contradiction,entailment
+People are gathered by a tree beside a line of white tents.,People are not gathered near a tree in proximity of white tents.,negation,2,2,1,0.9888379573822021,contradiction,contradiction
+Young child is falling through the air from a swing.,the child is not on a swing,negation,2,2,1,0.9394177794456482,contradiction,contradiction
+A soccer team dressed in all black are gathered together on a soccer field where it is cold enough to see one's own breath.,none players are playing soccer in ground,quantifier,2,2,1,0.9917106628417969,contradiction,contradiction
+A man takes a nap on the sidewalk in a busy city.,Someone is not asleep on a sidewalk.,negation,2,0,0,0.5873398780822754,contradiction,entailment
+"A black man, wearing a cap, is sitting in a bus.",A person is traveling on public transportation.,paraphrase,0,0,1,0.9425802826881409,entailment,entailment
+A person with dark hair is standing on the sidewalk in front of an orange and white truck.,The person gets in the black truck.,antonymy,2,2,1,0.9956112504005432,contradiction,contradiction
+"A small group of children are standing in a classroom and one of them has a foot in a trashcan, which also has a rope leading out of it.",There is not a child with their foot in a garbage can near some other kids in a classroom.,negation,2,2,1,0.6632283926010132,contradiction,contradiction
+A guy on a roof working on terracotta roof tiles.,A guy off a roof working on roof tiles.,antonymy,2,0,0,0.6863500475883484,contradiction,entailment
+A man wearing a black balloon animal shirt is making a circle out of balloons.,The man was a clown for all years.,quantifier,2,1,0,0.8756552338600159,contradiction,neutral
+"A woman, wearing a dress, while sitting down playing a musical instrument and singing into a microphone.",The person is near the microphone.,paraphrase,0,0,1,0.9853246808052063,entailment,entailment
+A party is held and many people mingle and gather for the occasion.,all friends are socializing at a birthday party.,quantifier,2,1,0,0.9842245578765869,contradiction,neutral
+A man with a checkered shirt on is giving a powerpoint presentation to people.,the person is talking,paraphrase,0,0,1,0.9113012552261353,entailment,entailment
+A man swims in the pool with a child in a life jacket.,The man is not in the water.,negation,2,2,1,0.4901147484779358,contradiction,contradiction
+A woman in a white dress with one leg stops to read a poster.,A lady wearing white who only has not one leg has stopped to read a poster.,negation,2,0,0,0.7632714509963989,contradiction,entailment
+Man working behind a watch repair booth on the street.,A person is working behind the small business on the street.,paraphrase,0,0,1,0.776721179485321,entailment,entailment
+Two women and a younger girl laugh and converse in front of a green tent and blue microphone.,Two women and a old girl joyously laugh,antonymy,2,1,0,0.6256502866744995,contradiction,neutral
+Two men help an injured player on the field.,Two men help an uninjured player.,antonymy,2,2,1,0.7260597348213196,contradiction,contradiction
+A girl is working on some sort of lab experiment while another girl watches with a bored expression.,A girl is eating all sort of lab experiment while another girls watches in horror.,quantifier,2,2,1,0.992128849029541,contradiction,contradiction
+A woman is sitting in a chair filling out some paperwork.,A person messes with none papers.,quantifier,2,2,1,0.9654772281646729,contradiction,contradiction
+A little boy in a bathrobe sits on a bench near the shower in a bathroom.,The female child is inside of the building.,antonymy,2,2,1,0.9598217606544495,contradiction,contradiction
+"A man with the name tag ""Chris"" who is wearing a blue shirt with blue-white striped tie, presses his hand at his forehead.",A person is named Chris,paraphrase,0,0,1,0.9077162742614746,entailment,entailment
+A man in a shirt and tie does the splits on a wood floor,The person is flexible.,paraphrase,0,0,1,0.8288214802742004,entailment,entailment
+A standing crowd of people watches a musical performance on a lighted stage.,all people are enjoying themselves at a musical.,quantifier,2,1,0,0.8116629719734192,contradiction,neutral
+A young girl in a white summer dress walks the outer edges of a large park fountain.,The girl is not wearing a white dress.,negation,2,2,1,0.984250545501709,contradiction,contradiction
+"Three men in a science lab watch one of them hold a burning object, one man on the side is reaching for the ground.",Three men are not in a laboratory doing a scientific study.,negation,2,0,0,0.4815838038921356,contradiction,entailment
+A woman wearing sunglasses is holding a pink cellphone to her ear.,A lady is not on her cellphone.,negation,2,2,1,0.860120415687561,contradiction,contradiction
+"Two young girls have fun on a trampoline, one of which appears to be falling down onto her back while the other poses with a smile behind her.","Two young girls have not fun on a trampoline, one of which appears to be falling down onto her back while the other poses with a smile behind her.",negation,2,2,1,0.9743916392326355,contradiction,contradiction
+A skateboarder goes down a railing.,A skateboarder finally succeeds in going down a railing after all tries.,quantifier,2,1,0,0.9887579679489136,contradiction,neutral
+Two yellow dogs are running side by side down a road.,the yellow dogs run off the road,antonymy,2,2,1,0.5797725319862366,contradiction,contradiction
+Men stand on steps leading out of a body of water,Men are standing on none steps near some water.,quantifier,2,2,1,0.8086968660354614,contradiction,contradiction
+A inside view of an apartment showing 2 couches and a coffee table.,A man is feeding all birds some bread.,quantifier,2,2,1,0.9969472289085388,contradiction,contradiction
+A group of men walks next to train tracks that are covered in snow.,all men walk near the tracks.,quantifier,2,2,1,0.4045329988002777,contradiction,contradiction
+A man jogs on green grass with bare feet.,A person is jogging.,paraphrase,0,0,1,0.9867832660675049,entailment,entailment
+A little girl in a pink jacket is walking.,The little girl can not walk.,negation,2,2,1,0.9404265880584717,contradiction,contradiction
+An older gentleman enjoys a scenic stroll through the countryside.,It is not true that A man walks the countryside.,negation,2,1,0,0.4058791399002075,contradiction,neutral
+"A police officer, wearing his helmet, standing next to his motorcycle, standing next to a taller, bald, black male, wearing brown pants, his leather jacket across his shoulder.",a police officer stands next to his motorcycle with another person in leather nearby,paraphrase,0,0,1,0.9207683205604553,entailment,entailment
+A young man takes a walk carrying a backpack and camera.,A person is walking,paraphrase,0,0,1,0.9776108860969543,entailment,entailment
+A man in a black shirt sits next to an old woman in a pink shirt on a train.,A person is sitting on the train talking to a person.,paraphrase,0,1,0,0.9799837470054626,entailment,neutral
+There are people at the train station waiting for their trains and other trains are whizzing by them.,The people differ waiting at the station.,antonymy,2,0,0,0.4748031198978424,contradiction,entailment
+Dog running down paved walkway near a Japanese maple tree.,A dog standing outside.,antonymy,2,2,1,0.9760311245918274,contradiction,contradiction
+People are talking to a camera crew with video and microphone.,People are keep quiet to others.,antonymy,2,2,1,0.8636893033981323,contradiction,contradiction
+A man and woman and two small children are sitting in the floor with wrapped Christmas presents.,A person and person are sitting around Christmas presents.,paraphrase,0,0,1,0.9824827909469604,entailment,entailment
+An older man indulging in a bottle of amber liquid.,An old man is drinking all amber liquid from a bottle.,quantifier,2,2,1,0.6450885534286499,contradiction,contradiction
+"One man wearing a blue shirt, white shorts, and sandals, and another man wearing cargo pants and a gray jacket shop at a farmer's market.",Two men but all local fruit,quantifier,2,1,0,0.6314604878425598,contradiction,neutral
+A shirtless man wearing a black hat and a scarf works on an anvil.,A person works with an anvil.,paraphrase,0,0,1,0.9859382510185242,entailment,entailment
+A white race dog wearing the number eight runs on the track.,A dog is not running.,negation,2,2,1,0.9039801955223083,contradiction,contradiction
+An older man with large patches on his jeans looks on as a young man swings an axe downward toward a tree stump.,Two men are not outside.,negation,2,0,0,0.9121339917182922,contradiction,entailment
+A surgeon is performing an open surgery.,A doctor is doing none kind of medical operation.,quantifier,2,2,1,0.9677162766456604,contradiction,contradiction
+A man in a black hoodie watching a man in a red cap.,There is not a man watching another man.,negation,2,2,1,0.8799881935119629,contradiction,contradiction
+Two asian kids are playing with a very large tree branch.,all kids are playing in the backyard.,quantifier,2,1,0,0.554526150226593,contradiction,neutral
+A man in a suit and tie is opening a door.,There is one person in this picture.,paraphrase,0,0,1,0.9815419316291809,entailment,entailment
+A person is standing on top of a snow covered mountain.,A person yield on a mountain.,antonymy,2,1,0,0.8339823484420776,contradiction,neutral
+"Interior of the restaurant chain: Planet Hollywood, various movie memorabilia decorate the space.",It is not true that The inside of a restaurant.,negation,2,0,0,0.39942753314971924,contradiction,entailment
+A small child with a blue hood is looking out the window.,A child differ looking out a window,antonymy,2,0,0,0.6306412816047668,contradiction,entailment
+A man wearing a white jacket and pink hat is speaking into a microphone while raising one arm above his head.,The person is wearing a hat.,paraphrase,0,0,1,0.9809345602989197,entailment,entailment
+A skydiving instructor with a student strapped together while skydiving.,People differ jumping from a plane.,antonymy,2,2,1,0.5341883897781372,contradiction,contradiction
+A man skateboarding at a skateboarding park which is covered in graffiti.,A man differ skateboarding.,antonymy,2,0,0,0.6572704911231995,contradiction,entailment
+A young boy wearing blue pajamas and yellow glasses leaping into the air.,A female child in pajamas jumping.,antonymy,2,2,1,0.9902634620666504,contradiction,contradiction
+Two women both dressed in white tops and dark-colored shorts are standing in front of some motorcycles on a city street,It is not true that Two women wearing tops and shorts stand by some motorcycle in the street.,negation,2,0,0,0.6111366152763367,contradiction,entailment
+A blond man stands next to a cement mixer with mountains in the background.,A man stands outside in front of none mountains.,quantifier,2,2,1,0.5326175689697266,contradiction,contradiction
+Two men wearing brown hats are doing work on a yellow house.,Two guys are not doing work on a dwelling.,negation,2,2,1,0.9751749634742737,contradiction,contradiction
+Adults with their kids are riding on a small red train.,There differ people on the train.,antonymy,2,0,0,0.7719689011573792,contradiction,entailment
+Two indian men are dancing in suits with an indian woman in a colorful dress behind them by a brick wall.,none people are moving in circles.,quantifier,2,2,1,0.9959278702735901,contradiction,contradiction
+A young girl washing a lime-green car.,A young girl washing a automobile.,paraphrase,0,0,1,0.9649085402488708,entailment,entailment
+A tan bird stands on a ledge about to eat something.,A bird is about to eat none food.,quantifier,2,2,1,0.9277991652488708,contradiction,contradiction
+A dark-haired girl in a spotted shirt is pointing at a picture while sitting next to a boy in a purple shirt and jeans.,A girl differ pointing at the picture.,antonymy,2,0,0,0.6647540926933289,contradiction,entailment
+A woman cutting fabric flowers in a market.,A woman cuts fabric flowers outside a market.,antonymy,2,0,0,0.4787841737270355,contradiction,entailment
+Several children are standing in a house looking out the window.,all siblings are indoors while it rains,quantifier,2,1,0,0.7430977821350098,contradiction,neutral
+The man wearing jacket is looking at he bike.,A woman is watching the bicycle.,antonymy,2,2,1,0.9954990744590759,contradiction,contradiction
+A group of kids are playing on a tire swing.,none kids are playing on a swing.,quantifier,2,2,1,0.9967243075370789,contradiction,contradiction

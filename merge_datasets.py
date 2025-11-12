@@ -47,6 +47,7 @@ def main():
     # load adv train jsonl into HF Dataset
     adv_list = [json.loads(l) for l in open("data/adversarial/train/snli_adv_train.jsonl")]
     # Map adv records: keys should be "premise","hypothesis","label" with label ints
+    from datasets import Dataset
     adv_ds = Dataset.from_list([{"premise": r["premise"], "hypothesis": r["hypothesis"], "label": r["label"]} for r in adv_list])
 
     # sample sizes

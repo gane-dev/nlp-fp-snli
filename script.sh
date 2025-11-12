@@ -12,3 +12,8 @@ textattack attack --model-from-huggingface checkpoints/electra-snli/best --datas
 
 textattack attack --model checkpoints/electra-snli/best --dataset-from-huggingface snli --dataset-split validation --recipe textfooler --num-examples 1000 --log-to-csv attacks/text
 fooler_snli_val.csv --random-seed 42
+
+
+textattack attack --model-from-huggingface google/electra-base-discriminator --dataset-from-huggingface snli --dataset-split validation --recipe textfooler --num-examples 1000 --log-to-csv attacks/textfooler_snli_val_base.csv --random-seed 42
+
+python ta_csv_to_jsonl.py textfooler_snli_val.csv snli_textfooler_raw.jsonl

@@ -2,56 +2,93 @@
 # Mix SNLI train with clean TextFooler JSONL (70/30 by default) and fine-tune ELECTRA-small.
 
 import argparse, json, math, random, os
-from datasets import load_dataset, Dataset, concatenate_datasets
+from datasets import load_dataset, Dataset, concatenate_datasets, Features, Value
 from transformers import (AutoTokenizer, AutoModelForSequenceClassification,
                           DataCollatorWithPadding, TrainingArguments, Trainer, set_seed)
 import evaluate
 import numpy as np
+from transformers.trainer_utils import EvaluationStrategy, SaveStrategy
+
 
 def load_clean_adv(jsonl_path):
+    adv_list = []
     with open(jsonl_path, "r", encoding="utf-8") as f:
-        recs = [json.loads(line) for line in f if line.strip()]
     # Expect keys: premise, hypothesis, label (0/1/2)
-    clean = []
-    for r in recs:
-        if not r.get("premise") or not r.get("hypothesis"):
-            continue
-        lab = r.get("label")
-        try:
-            lab = int(lab)
-        except:
-            continue
-        if lab not in (0,1,2):
-            continue
-        clean.append({"premise": r["premise"], "hypothesis": r["hypothesis"], "label": lab})
-    return Dataset.from_list(clean)
+        for line in f:
+            if not line.strip():
+                continue
+            r = json.loads(line)
+            # expected: {"premise": "...", "hypothesis": "...", "label": 0/1/2}
+            if r.get("premise") and r.get("hypothesis"):
+                lab = int(r["label"])
+                if lab in (0, 1, 2):
+                    adv_list.append({
+                        "premise": r["premise"],
+                        "hypothesis": r["hypothesis"],
+                        "label": lab})
+    return adv_list
 
-def build_mixed_train(orig_train, adv_ds, adv_ratio=0.3, seed=42):
-    """
-    Build a mixed dataset where ~adv_ratio of examples are adversarial.
-    Keeps total size ~= len(orig_train) to avoid inflating epochs.
-    """
-    rng = random.Random(seed)
-    n_total = len(orig_train)
+def get_snli_datasets(train):
+    snli = load_dataset("snli")
+    if train ==0:
+        snli_train = snli["train"].filter(lambda x: x["label"] != -1)
+    elif train == 1:
+        snli_train = snli["validation"].filter(lambda x: x["label"] != -1)
+    else:
+        snli_train = snli["test"].filter(lambda x: x["label"] != -1)
+
+    snli_list = [
+        {
+            "premise": ex["premise"],
+            "hypothesis": ex["hypothesis"],
+            "label": int(ex["label"])  # 0/1/2
+        }
+        for ex in snli_train
+    ]
+    return snli_list
+
+def build_mixed_train(snli_list, adv_list, adv_ratio=0.3, seed=42):
+    import random
+    random.seed(seed)
+
+    n_total = len(snli_list)
     n_adv = int(round(adv_ratio * n_total))
     n_orig = n_total - n_adv
 
-    # sample / upsample adversarial examples
-    adv_ds = adv_ds.shuffle(seed=seed)
-    if len(adv_ds) >= n_adv:
-        adv_part = adv_ds.select(range(n_adv))
+    # sample adversarial (with upsampling if needed)
+    if len(adv_list) >= n_adv:
+        adv_sample = random.sample(adv_list, n_adv)
     else:
         # upsample with replacement
-        reps = math.ceil(n_adv / len(adv_ds))
-        adv_list = adv_ds.to_list() * reps
-        rng.shuffle(adv_list)
-        adv_part = Dataset.from_list(adv_list[:n_adv])
+        repeats = (n_adv // len(adv_list)) + 1
+        adv_big = (adv_list * repeats)[:n_adv]
+        random.shuffle(adv_big)
+        adv_sample = adv_big
 
-    # sample original portion without replacement
-    orig_part = orig_train.shuffle(seed=seed).select(range(n_orig))
+    # sample original
+    orig_sample = random.sample(snli_list, n_orig)
 
-    mixed = concatenate_datasets([orig_part, adv_part]).shuffle(seed=seed+1)
-    return mixed
+    mixed_list = orig_sample + adv_sample
+    random.shuffle(mixed_list)
+    print("Mixed total:", len(mixed_list))
+    print("Adv fraction:", len(adv_sample) / len(mixed_list))
+    return mixed_list
+
+def get_mixed_dataset(mixed_list):
+    from datasets import Dataset, Features, Value
+
+    features = Features({
+        "premise": Value("string"),
+        "hypothesis": Value("string"),
+        "label": Value("int64"),
+    })
+
+    mix_train = Dataset.from_list(mixed_list, features=features)
+    print(mix_train.features)
+
+    return Dataset.from_list(mixed_list)
+
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -71,19 +108,16 @@ def main():
     set_seed(args.seed)
     os.makedirs(args.out, exist_ok=True)
 
-    # 1) Load SNLI and filter labels
-    snli = load_dataset("snli")
-    train = snli["train"].filter(lambda x: x["label"] != -1)
-    val   = snli["validation"].filter(lambda x: x["label"] != -1)
-    test  = snli["test"].filter(lambda x: x["label"] != -1)
+    train = get_snli_datasets(0)
+    val = build_mixed_train(get_snli_datasets(1),[],0.0)
+    test= build_mixed_train(get_snli_datasets(2),[],0.0)
 
-    # 2) Load clean adversarial JSONL
-    adv_ds = load_clean_adv(args.adv_jsonl)
-    if len(adv_ds) == 0:
-        raise ValueError("No valid adversarial records found in JSONL.")
-
-    # 3) Build mixed train (70/30 by default)
-    mix_train = build_mixed_train(train, adv_ds, adv_ratio=args.adv_ratio, seed=args.seed)
+    mix_train = build_mixed_train(
+        snli_list=train,
+        adv_list=load_clean_adv(args.adv_jsonl),
+        adv_ratio=args.adv_ratio,
+        seed=args.seed
+    )
     print(f"[INFO] Mixed train size: {len(mix_train)} | "
           f"orig≈{len(train) - int(round(args.adv_ratio * len(train)))} | adv≈{int(round(args.adv_ratio * len(train)))}")
 
@@ -94,9 +128,12 @@ def main():
         return tok(batch["premise"], batch["hypothesis"],
                    truncation=True, padding=False, max_length=args.max_len)
 
-    mix_enc = mix_train.map(preprocess, batched=True, remove_columns=["premise","hypothesis"])
-    val_enc = val.map(preprocess, batched=True, remove_columns=["premise","hypothesis"])
-    test_enc= test.map(preprocess, batched=True, remove_columns=["premise","hypothesis"])
+    mixed_ds = get_mixed_dataset(mix_train)
+    val_ds = get_mixed_dataset(val)
+    test_ds= get_mixed_dataset(test)
+    mix_enc = mixed_ds.map(preprocess, batched=True, remove_columns=["premise","hypothesis"])
+    val_enc = val_ds.map(preprocess, batched=True, remove_columns=["premise","hypothesis"])
+    test_enc= test_ds.map(preprocess, batched=True, remove_columns=["premise","hypothesis"])
 
     mix_enc.set_format("torch", columns=["input_ids","attention_mask","label"])
     val_enc.set_format("torch", columns=["input_ids","attention_mask","label"])
@@ -119,8 +156,8 @@ def main():
         per_device_train_batch_size=args.batch,
         per_device_eval_batch_size=args.eval_batch,
         weight_decay=0.01,
-        evaluation_strategy="epoch",
-        save_strategy="epoch",
+        eval_strategy = EvaluationStrategy.EPOCH,
+        save_strategy=SaveStrategy.EPOCH,
         load_best_model_at_end=True,
         metric_for_best_model="accuracy",
         greater_is_better=True,
@@ -147,7 +184,7 @@ def main():
     print("[TEST]", trainer.evaluate(test_enc))
 
     # 7) Save best checkpoint
-    best_dir = os.path.join(args.out, "best")
+    best_dir = os.path.join(args.out, "adv_best")
     os.makedirs(best_dir, exist_ok=True)
     trainer.save_model(best_dir)
     tok.save_pretrained(best_dir)
